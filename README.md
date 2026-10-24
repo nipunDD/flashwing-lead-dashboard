@@ -1,12 +1,17 @@
 # Flashwing lead desk
 
-Static dashboard for the Flashwing lead engine. It is a snapshot. The living files stay in the private repo `nipunDD/flashwing-lead-engine`.
+Static dashboard. Living files stay in the private repo `nipunDD/flashwing-lead-engine`.
 
 ## Publish
 
-1. Open Settings, then Pages.
-2. Source: Deploy from a branch.
-3. Branch: `main`, folder: `/ (root)`.
-4. Save. The site will be at https://nipundd.github.io/flashwing-lead-dashboard/
+GitHub no longer shows "Deploy from a branch" by default.
 
-GitHub Pages sites are public. Do not put private rates, customer names, or call notes here.
+1. Open Settings, then Pages.
+2. Under Build and deployment, set Source to GitHub Actions.
+3. If it asks for a workflow, pick Static HTML, or leave the existing `.github/workflows/pages.yml`.
+4. Open the Actions tab and run Deploy dashboard if it has not started.
+5. The site is https://nipundd.github.io/flashwing-lead-dashboard/
+
+Until that finishes, open the preview: https://htmlpreview.github.io/?https://github.com/nipunDD/flashwing-lead-dashboard/blob/main/index.html
+
+Pages sites are public. Do not put private rates, customer names, or call notes here.
