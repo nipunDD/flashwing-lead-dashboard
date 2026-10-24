@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flashwing lead desk</title>
+<style>
+  :root {
+    --ink: #1b2430;
+    --muted: #5c6b7a;
+    --line: #e4ddd2;
+    --paper: #f7f4ef;
+    --card: #fffdf9;
+    --navy: #16324f;
+    --gold: #b0893e;
+    --hot: #1f7a4d;
+    --watch: #8a5a12;
+    --drop: #8b3a3a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font: 16px/1.5 "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+  }
+  header {
+    background: var(--navy);
+    color: #f6f1e7;
+    padding: 28px 6vw 24px;
+  }
+  header p { margin: 6px 0 0; color: #d7c7a4; }
+  h1 { margin: 0; font-weight: 650; letter-spacing: -0.02em; }
+  main { padding: 24px 6vw 64px; max-width: 1180px; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: -36px 0 28px; }
+  .stat, .card, .row {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+  }
+  .stat { padding: 16px 18px; }
+  .stat b { display: block; font-size: 28px; }
+  .stat span { color: var(--muted); font-size: 13px; }
+  h2 { margin: 28px 0 12px; font-size: 18px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .card { padding: 18px 18px 16px; }
+  .score {
+    float: right;
+    background: var(--navy);
+    color: #fff;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 13px;
+  }
+  .meta { color: var(--muted); font-size: 14px; margin: 8px 0; }
+  .angle { background: #f3eee4; border-radius: 10px; padding: 10px 12px; font-size: 14px; }
+  .angle div { margin: 4px 0; }
+  a { color: #1d4e89; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; font-size: 14px; }
+  th { background: #efe8dc; font-weight: 650; }
+  .tag {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 2px 8px;
+    font-size: 12px;
+    background: #eee;
+  }
+  .hot { background: #e5f4eb; color: var(--hot); }
+  .watch { background: #f8efdc; color: var(--watch); }
+  .drop { background: #f8e8e8; color: var(--drop); }
+  .filters { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+  button {
+    border: 1px solid var(--line);
+    background: #fff;
+    border-radius: 999px;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  button.on { background: var(--navy); color: #fff; border-color: var(--navy); }
+  input {
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 7px 12px;
+    min-width: 220px;
+  }
+  .note { color: var(--muted); font-size: 13px; }
+  @media (max-width: 800px) {
+    .stats, .grid { grid-template-columns: 1fr; }
+    .stats { margin-top: 16px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Flashwing lead desk</h1>
+  <p>Air courier partners for local Thai agents shipping to the UK and EU. Research only. Last run 25 Oct 2026.</p>
+</header>
+<main>
+  <section class="stats">
+    <div class="stat"><b>2</b><span>Hot leads, 70 or above</span></div>
+    <div class="stat"><b>7</b><span>Companies reviewed</span></div>
+    <div class="stat"><b>5</b><span>Demand signals</span></div>
+    <div class="stat"><b>0</b><span>Calls logged</span></div>
+  </section>
+
+  <h2>Call these first</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="score">93</span>
+      <h3>Wandee THAI Express</h3>
+      <div class="meta">Lat Krabang, Bangkok · small shop, free pickup from 1 kg</div>
+      <div class="meta">02-114-3321 · 063-335-6514 · LINE mentioned, handle not printed</div>
+      <p>Posts sell UK air cargo with tax included, and hashtags for Europe. Facebook-only. Closest match to a local collector.</p>
+      <div class="angle">
+        <div>1. Your page sells UK air cargo with tax handling and free Bangkok pickup.</div>
+        <div>2. A small shop carrying the air leg and UK doorstep itself has to manage capacity and clearance on every consolidation.</div>
+        <div>3. After handover in Thailand, Flashwing handles the air leg to the UK or EU doorstep.</div>
+      </div>
+      <p><a href="https://www.facebook.com/p/Wandee-THAI-Express-%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8-61551230884473/">Open evidence</a></p>
+    </article>
+    <article class="card">
+      <span class="score">92</span>
+      <h3>SME Shipping</h3>
+      <div class="meta">Bangkok Yai · messenger pickup, packing, three UK service levels</div>
+      <div class="meta">02-105-7777 · LINE @shipping · contact form on site</div>
+      <p>Dedicated UK page and recent notes on EU and UK low-value duty rules. Larger than a pure agent; may already have carrier deals.</p>
+      <div class="angle">
+        <div>1. Your UK page offers three service levels with pickup and packing.</div>
+        <div>2. Changing EU and UK duty rules make the international leg more expensive to carry alone.</div>
+        <div>3. Flashwing can be an extra air-and-doorstep partner after your team collects and packs.</div>
+      </div>
+      <p><a href="https://smeshipping.com/en/ship-to-uk/">Open UK page</a></p>
+    </article>
+  </div>
+
+  <h2>All companies</h2>
+  <div class="filters">
+    <button class="on" data-f="all">All</button>
+    <button data-f="hot">Hot</button>
+    <button data-f="watch">Watch</button>
+    <button data-f="drop">Rejected</button>
+    <input id="q" placeholder="Search name or city">
+  </div>
+  <table>
+    <thead><tr><th>Company</th><th>Status</th><th>Score</th><th>City</th><th>Contact</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <h2>Demand this week</h2>
+  <div class="grid">
+    <div class="card"><b>Wandee THAI Express</b><p>Public Facebook post, 8 Oct: door-to-door to the UK. This became the top lead.</p><a href="https://www.facebook.com/p/Wandee-THAI-Express-%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%9B%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8-61551230884473/">Source</a></div>
+    <div class="card"><b>SME Shipping</b><p>19 Oct: new EU customs rules end the low-value duty exemption. 25 Sep: UK import tax guidance.</p><a href="https://smeshipping.com/">Source</a></div>
+    <div class="card"><b>FastShip</b><p>2 Oct Trustpilot: packages held, a Germany shipment disposed. Competitor noise, not a lead.</p><a href="https://www.trustpilot.com/review/fastship.co">Source</a></div>
+    <div class="card"><b>Thailand Post</b><p>28 Sep: ePacket DDP discount to EU until 31 Oct. Excluded as a target.</p><a href="https://www.kaohoon.com/pr/867231">Source</a></div>
+  </div>
+
+  <h2>What the system learned</h2>
+  <div class="card">
+    <p>No sales outcomes yet. Add a real row to the status log after a call.</p>
+    <p>Directory scores were too high: "worldwide" and sea-only rate tables are not air-courier evidence.</p>
+    <p>The best lead came from a Thai Facebook post, not an English directory.</p>
+    <p>Article studied: <a href="https://www.thaiglobalfreight.com/en/resources/shipping-from-thailand-to-uk">Shipping from Thailand to the UK</a>. Small parcels move on a shared air waybill. That is the slot Flashwing fills.</p>
+    <p class="note">This page is a snapshot of 25 Oct 2026. The private memory stays in nipunDD/flashwing-lead-engine.</p>
+  </div>
+</main>
+<script>
+const rows = [
+  ["Wandee THAI Express","hot","93","Lat Krabang","Facebook, 02-114-3321"],
+  ["SME Shipping","hot","92","Bangkok Yai","02-105-7777, LINE @shipping"],
+  ["Bangkok Parcel Service","watch","63","Bangkok","02-267-4788"],
+  ["Pexgo International","watch","51","Bangkok","kanya@pexgo.com"],
+  ["Karton Express","watch","40","Bangkok","karton.express"],
+  ["Transpeed","drop","25","Bangkok","info@transpeed.biz"],
+  ["KO Shipping","drop","28","Bangkok","02-651-0358"],
+  ["Dragon Courier","drop","<55","Bangkok","info@dragoncourier.com"],
+  ["Sabuy Express","drop","<55","Bangkok","cs@sabuyexpress.com"],
+  ["Aye Cargo","drop","<55","Bangkok","LINE @ayecargo"],
+  ["Thai Nexus Point","drop","<55","Hua Hin","contact@thainexus.co.th"],
+  ["MADD","drop","<55","Bangkok","customerservice@madd.co.th"],
+  ["LIDI Express","drop","<55","Bangkok","info@lidiexpress.com"],
+  ["FastShip","drop","<55","Bangkok","cs@fastship.co"],
+  ["Classic Express","drop","<55","Bangkok","info@ceslogistics.com"],
+  ["RNP Express","drop","<55","Bangkok","marketing@rnpexpress.co.th"]
+];
+const labels = {hot:"Hot", watch:"Watch", drop:"Rejected"};
+let filter = "all";
+const body = document.getElementById("rows");
+function draw() {
+  const q = document.getElementById("q").value.toLowerCase();
+  body.innerHTML = rows.filter(r => (filter === "all" || r[1] === filter) && (r[0] + r[3] + r[4]).toLowerCase().includes(q))
+    .map(r => `<tr><td>${r[0]}</td><td><span class="tag ${r[1]}">${labels[r[1]]}</span></td><td>${r[2]}</td><td>${r[3]}</td><td>${r[4]}</td></tr>`).join("");
+}
+document.querySelectorAll("button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("button").forEach(x => x.classList.remove("on"));
+  b.classList.add("on");
+  filter = b.dataset.f;
+  draw();
+});
+document.getElementById("q").oninput = draw;
+draw();
+</script>
+</body>
+</html>
